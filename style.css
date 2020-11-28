@@ -27,11 +27,11 @@ body {
     right: 0;
 } */
 
-#navbarBut {
+#navDiv {
     position: relative;
 }
 
-button {
+#navBut {
     position: fixed;
     top: 0;
     right: 0;

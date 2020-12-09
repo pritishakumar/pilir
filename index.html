@@ -4,6 +4,8 @@
     <title>Pilir</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo-favicon.ico" type="png" sizes="16x16">
 
@@ -40,78 +42,88 @@
         <div class="row m-1">
             <div class="col-lg-6">
             <section id="feedback">
-                <h2>Feedback</h2>
+                <h2>Tell us your thoughts!</h2>
                 <form>
-                    <div class="form-group row">
-                        <div class="col-6">
-                            <label for="bg-color">Background Color:</label>
-                        </div>
-                        <div class="col-6">
-                            <input type="text" id="bg-color" placeholder="color or rgba(128,0,128,1)" class="form control"/>
-                            <button class="btn btn-secondary" id="bg-but">Generate</button>
-                        </div>
+                    <label>Are you a parent?</label>
+                    <input type="checkbox" />
+                    <br />
+
+                    <p>Are you interested in care for your children?</p>
+                    <div>
+                        <label class="col-3">Before School <input type="checkbox" />
+                        </label>
+                        <label class="col-3">After School <input type="checkbox" />
+                        </label>
+                        <label class="col-3">Other School <input type="checkbox" />
+                        </label>
                     </div>
-                    <div class="form-group row">
-                        <div class="col-6">
-                            <label for="bg-grad1">Background Color Gradient (top color then bottom):</label>        
-                        </div>
-                        <div class="col-6">
-                            <input id="bg-grad1" type="text" placeholder="color or rgba(114,5,183,1)" class="form control"/>
-                            <input id="bg-grad2" type="text" placeholder="color or rgba(57,0,93,1)"  class="form control"/>
-                            <button class="btn btn-secondary" id="bg-grad-but">Generate</button>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-6">
-                            <label for="text-color">Body Text Color:</label>
-                        </div>
-                        <div class="col-6">
-                            <input id="text-color" type="text" placeholder="color or rgba(0,0,0,1)" class="form control" />
-                            <button class="btn btn-secondary" id="text-but">Generate</button>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-6">
-                            <label for="text-bg">Body Text Background Color & Opacity:</label>
-                        </div>
-                        <div class="col-6">
-                            <input id="text-bg" type="text" placeholder="rgba(255,255,255,0.5)" class="form control" />
-                            <button class="btn btn-secondary" id="text-bg-but">Generate</button>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-6">
-                            <label for="font-size">font size:</label>
-                        </div>
-                        <div class="col-6">
-                            <input id="font-size" type="text" value="20px" class="form control" />
-                            <button class="btn btn-secondary" id="font-size-but">Generate</button>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-6">
-                            <label for="font-family">font family:</label>
-                        </div>
-                        <div class="col-6">
-                            <input id="font-family" type="text" value="roboto" class="form control" />
-                            <button class="btn btn-secondary" id="font-family-but">Generate</button>
-                        </div>
-                    </div>
+                    <br />
+
+                    <p>Are you interested in programs that teach children about:</p>
+                    <ul>
+                        <li><label><input type="checkbox" /> Upcycling 
+                        </label></li>
+                        <li><label><input type="checkbox" /> personal finance 
+                        </label></li>
+                        <li><label><input type="checkbox" /> emotional wellbeing 
+                        </label></li>
+                        <li><label><input type="checkbox" /> entrepreneurship 
+                        </label></li>
+                        <li><label><input type="checkbox" /> technology (coding, blockchain, machine learning, etc)
+                        </label></li>
+                        <li><label><input type="checkbox" /> survival skills 
+                        </label></li>
+                        <li><label><input type="checkbox" /> nutrition and health 
+                        </label></li>
+                    </ul>
+                    <br />
+
+                    <label>What is your greatest challenge in getting quality care for your children?</label>
+                    <textarea></textarea>
+                    <br />
+                    
+                    <button type="button" href="#">Submit</button>
+                    <br />
+                    <br />
                 </form>
             </section>
             </div>
 
             <div class="col-lg-6">
                 <section id="mission">
-                    <h2>Company Mission</h2>
+                    <h2>Our Vision & Mission:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus felis nibh. Nam euismod commodo mauris, ornare mollis ante malesuada ac. Suspendisse potenti. Aliquam ac diam ut sapien fermentum aliquam. Sed nulla ligula, rhoncus a pulvinar a, elementum vitae eros. Vestibulum placerat in dui vel consequat. Donec congue gravida velit, sit amet rutrum nibh ultricies eget. Aliquam vitae tellus nulla. Nullam ullamcorper mauris vulputate eros mollis, sit amet hendrerit ipsum blandit. Sed semper, leo vel laoreet mattis, quam metus dapibus turpis, in tempus metus nisi et ipsum. Pellentesque tellus neque, tristique non vulputate sit amet, euismod et diam. Vivamus sed sem ut justo consequat vestibulum. In vel scelerisque nulla.
+                        At Pilir we believe that the wellbeing of children is a major part of what 
+                        can drive the world forward in a better way.  To do this requires enabling 
+                        parents to have as much energy and time as possible to meet their needs 
+                        and do their work to provide.   and enabling caregivers  
+                    </p><p>
+                        We seek to provide quality childcare through programs that not only keep 
+                        children safe and occupied, but enrich their lives.  In addition, we'd 
+                        like to make it easier for parents and childcare providers to connect.  
+                        To optimize the balance between costs to parents, and fair renumeration 
+                        for childcare providers, which will draw the best talent.
+                    </p><p>
+                        Lastly, we will work to bring awareness about policies and drive policy 
+                        change that will keep our children from harm - physical, emotional, or 
+                        psychological.  We seek to provide tools to parents and caregivers that 
+                        will enable this...
                     </p>
                 </section>
                 <section id="us">
-                    <h2>Who Am I?</h2>
+                    <img src="ProfilePhoto.png" alt="profile photo" width="300px" height="auto"/>
+                    <h2>Pilir Leadership</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus felis nibh. Nam euismod commodo mauris, ornare mollis ante malesuada ac. Suspendisse potenti. Aliquam ac diam ut sapien fermentum aliquam. Sed nulla ligula, rhoncus a pulvinar a, elementum vitae eros. Vestibulum placerat in dui vel consequat. Donec congue gravida velit, sit amet rutrum nibh ultricies eget. Aliquam vitae tellus nulla. Nullam ullamcorper mauris vulputate eros mollis, sit amet hendrerit ipsum blandit. Sed semper, leo vel laoreet mattis, quam metus dapibus turpis, in tempus metus nisi et ipsum. Pellentesque tellus neque, tristique non vulputate sit amet, euismod et diam. Vivamus sed sem ut justo consequat vestibulum. In vel scelerisque nulla.
+                        Danica Marsden is from Vancouver, BC Canada.  She has always loved working 
+                        with children, as a camp counselor, ski instructor, tutor and mentor.  She 
+                        earned her doctorate in physics at the University of Pennsylvania and 
+                        while there, worked with the homeless at Philly ReStart and served on the 
+                        UPenn academic disciplinary hearing board.  While working in Calgary, 
+                        Danica was a mentor with the Schulich robotics program, where children 
+                        ages 5-14 learned how to build robots.  She moved back to the Vancouver 
+                        area to assist some family members, and during that time heard about the 
+                        Squamish townhall meetings on the childcare crisis, which inspired her to 
+                        look for a way to help solve this problem.  
                     </p>
                     <br />
                     <p >
@@ -119,7 +131,9 @@
                         <a class="text-white" href="#"><i class="fab fa-instagram-square"></i></a>
                         <a class="text-white" href="#"><i class="fab fa-facebook-square"></i></a>
                     </p>
+                    <br />
                 </section>
+                
             </div>
         </div>
     </main>

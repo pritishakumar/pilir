@@ -1,6 +1,8 @@
 body {
-    background-color: purple;
-    font-size: 20px;
+    background-image: linear-gradient(rgba(40,0,70,1), rgba(170,0,68,1));
+    color: rgba(241,213,0,1);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .jumbotron {
@@ -19,14 +21,6 @@ body {
     left: 0;
 }
 
-/* .dropdown a {
-    position: absolute;
-    display: block;
-    width: 50vw;
-    height: 40px;
-    right: 0;
-} */
-
 #navDiv {
     position: relative;
 }
@@ -38,4 +32,9 @@ body {
     width: 50px;
     height: 50px;
     z-index: 1;
+}
+
+section {
+    background-color: rgba(128,0,128,0.4);
+    border-radius: 10px;
 }
